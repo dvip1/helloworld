@@ -8,7 +8,7 @@ char election(){
     char wanna_play[10];
     printf("Enter your name: ");
     scanf("%s", username);
-    printf("Hello %s, Welcome to the election!\n");
+    printf("Hello %s, Welcome to the election!\n", username);
     printf("Would you like to participate in election (yes/no)\n");
     scanf("%s", wanna_play);
     if (strcmp(wanna_play, "no")==0){
